@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   a{
-  text-decoration: none;
+    text-decoration: none;
   }
 
   input, button{
@@ -51,6 +51,9 @@ const GlobalStyle = createGlobalStyle`
   table {
     border-collapse: collapse;
     border-spacing: 0;
+  }
+  *{
+    box-sizing: border-box;
   }
 `;
 
